@@ -12,7 +12,7 @@ import DeleteButton from './components/DeleteButton';
 export default function App() {
     const [text, setText] = useState("_");
     const speechOptions = { rate: 0.6};
-
+    var newState;
 
     const changeText = (letterToAdd) => {
         if (text.length > 33) {
