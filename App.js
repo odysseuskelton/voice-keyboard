@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, Vibration } from "react-native";
 import React, { useState } from "react";
 import * as Speech from 'expo-speech';
 import * as Haptics from 'expo-haptics';
@@ -11,7 +11,8 @@ import DeleteButton from './components/DeleteButton';
 
 export default function App() {
     const [text, setText] = useState("_");
-    const speechOptions = { rate: 0.6};
+    const speechOptions = { rate: 0.6 };
+
     var newState;
 
     const changeText = (letterToAdd) => {
@@ -29,7 +30,8 @@ export default function App() {
 
     function addSpace()
     {
-        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
+        Vibration.vibrate();
+        
         if (text.length > 33) {
             newState = "" + " ";
         }
