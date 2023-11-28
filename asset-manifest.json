@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/voice-keyboard/static/js/main.16572c7d.js",
-    "static/js/311.a8fcff67.js": "/voice-keyboard/static/js/311.a8fcff67.js",
+    "main.js": "/voice-keyboard/static/js/main.5ae77c1b.js",
+    "static/js/652.2ff5649c.js": "/voice-keyboard/static/js/652.2ff5649c.js",
     "static/media/c.wav": "/voice-keyboard/static/media/c.9129c0f23eeb533d6660.wav",
     "static/media/g.wav": "/voice-keyboard/static/media/g.5e8843b3f0ee65fb7dc5.wav",
     "static/media/n.wav": "/voice-keyboard/static/media/n.f203ae349986152fd9d6.wav",
@@ -34,11 +34,11 @@
     "favicon-16.png": "/voice-keyboard/favicon-16.png",
     "manifest.json": "/voice-keyboard/manifest.json",
     "serve.json": "/voice-keyboard/serve.json",
-    "main.16572c7d.js.map": "/voice-keyboard/static/js/main.16572c7d.js.map",
-    "311.a8fcff67.js.map": "/voice-keyboard/static/js/311.a8fcff67.js.map"
+    "main.5ae77c1b.js.map": "/voice-keyboard/static/js/main.5ae77c1b.js.map",
+    "652.2ff5649c.js.map": "/voice-keyboard/static/js/652.2ff5649c.js.map"
   },
   "entrypoints": [
-    "static/js/311.a8fcff67.js",
-    "static/js/main.16572c7d.js"
+    "static/js/652.2ff5649c.js",
+    "static/js/main.5ae77c1b.js"
   ]
 }
