@@ -23,6 +23,10 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.anonymous.VoiceKeyboard"
+
+    },
+    "androidNavigationBar": {
+      "visible": "immersive"
     },
     "web": {
       "favicon": "./assets/favicon.png"

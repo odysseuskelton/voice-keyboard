@@ -61,6 +61,7 @@ export default function App() {
 
 
     return (
+
         <View style={styles.container}>
             <View style={styles.innerContainer}>
             </View>
@@ -128,9 +129,9 @@ const styles = StyleSheet.create({
     },
 
     titleText: {
-        height: 350,
+        height: 300,
         width: 420,
-        fontSize: 65,
+        fontSize: 55,
         fontWeight: 'bold',
         flexDirection: 'row',
         flexWrap: 'wrap',
