@@ -7,6 +7,7 @@ import * as Haptics from 'expo-haptics';
 
 export default function Button({ label, changeText }) {
     const [sound, setSound] = React.useState();
+    var chosenLetter;
 
     const options = {
         enableVibrateFallback: true,
