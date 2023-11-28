@@ -57,6 +57,11 @@ export default function App() {
 
     }
 
+    function test() {
+        newState = "test success";
+        setText(newState);
+    }
+
     return (
         <View style={styles.container}>
             <View style={styles.innerContainer}>
@@ -67,7 +72,7 @@ export default function App() {
             </Text>
 
             <View style={styles.letterContainer}>
-
+                <LargeButton label="test" changeText={test} />
                 <Button label="A" changeText={changeText} />
                 <Button label="B" changeText={changeText} />
                 <Button label="C" changeText={changeText} />
