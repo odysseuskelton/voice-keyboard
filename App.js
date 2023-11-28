@@ -16,7 +16,7 @@ export default function App() {
     var newState;
 
     const changeText = (letterToAdd) => {
-        if (text.length > 33) {
+        if (text.length > 55) {
  
             newState = "" + letterToAdd + "_";
         }
@@ -32,7 +32,7 @@ export default function App() {
     {
         Vibration.vibrate(125);
         
-        if (text.length > 33) {
+        if (text.length > 55) {
             newState = "" + " ";
         }
         else {
