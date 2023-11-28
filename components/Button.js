@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleSheet, View, Pressable, Text} from 'react-native';
+import { StyleSheet, View, Pressable, Text, Vibration } from 'react-native';
 import { Audio } from 'expo-av';
 import * as Haptics from 'expo-haptics';
 
@@ -16,7 +16,7 @@ export default function Button({ label, changeText }) {
 
     async function buttonPressed(letter) {
         changeText(letter.label);
-        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
+        Vibration.vibrate(125);
         playSound(letter);
     }
 

@@ -30,7 +30,7 @@ export default function App() {
 
     function addSpace()
     {
-        Vibration.vibrate();
+        Vibration.vibrate(125);
         
         if (text.length > 33) {
             newState = "" + " ";
@@ -46,7 +46,7 @@ export default function App() {
     }
 
     function deleteCharacter() {
-        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
+        Vibration.vibrate(125);
         if (text.length > 0)
         {
             Speech.stop();
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     },
 
     titleText: {
-        height: 390,
+        height: 350,
         width: 420,
         fontSize: 65,
         fontWeight: 'bold',
